@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'transport' # or 'transport.apps.TransportConfig', but KISS, we have only 1 config
 ]
 
 MIDDLEWARE = [
